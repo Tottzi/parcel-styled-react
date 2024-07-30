@@ -23,10 +23,6 @@ export const GlobalStyle = createGlobalStyle`
 		width: 100%;
 		height: 100%;
 	}
-
-	div#__next {
-        height: 100%;
-    }
 `
 
 export const buttonResetStyles = css`
@@ -111,7 +107,7 @@ const {
 	gullfaksGray,
 } = colorScheme
 
-const defaultTheme: DefaultTheme = {
+export const defaultTheme: DefaultTheme = {
 	...colorScheme,
 	backgroundColor: white,
 	foregroundColor: ekofiskGray,
@@ -162,5 +158,3 @@ export const accentTheme = {
 	goInviteIconFill: white,
 	inputFieldStroke: white,
 }
-
-export default defaultTheme

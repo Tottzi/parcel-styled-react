@@ -1,5 +1,5 @@
 import React, { HTMLAttributes, ComponentPropsWithoutRef, FC, ButtonHTMLAttributes, DetailedHTMLProps, ReactElement, ReactNode, ProviderProps, ChangeEvent, HTMLProps } from "react";
-import { Styled } from "styled-components";
+import { Styled, DefaultTheme } from "styled-components";
 import { CssFunction } from "../../styled.d";
 import { ColorScheme } from "./styled.d";
 export type FontLevels = 1 | 2 | 3;
@@ -180,6 +180,7 @@ export const buttonResetStyles: import("styled-components").RuleSet<object>;
 export const listStyleReset: import("styled-components").RuleSet<object>;
 export const cardStyles: import("styled-components").RuleSet<object>;
 export const colorScheme: ColorScheme;
+export const defaultTheme: DefaultTheme;
 export const accentTheme: {
     backgroundColor: string;
     foregroundColor: string;

@@ -27,10 +27,6 @@ function $parcel$exportWildcard(dest, source) {
 function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
 }
-
-function $parcel$defineInteropFlag(a) {
-  Object.defineProperty(a, '__esModule', {value: true, configurable: true});
-}
 var $e70c6d629f9c485f$exports = {};
 var $0f7d2bdce3626be2$exports = {};
 
@@ -4671,19 +4667,17 @@ $parcel$exportWildcard($0ce10b66b1939aef$exports, $13bd041aea0fab64$exports);
 
 var $b44f59079fca3750$exports = {};
 
-$parcel$defineInteropFlag($b44f59079fca3750$exports);
-
 $parcel$export($b44f59079fca3750$exports, "GlobalStyle", () => $b44f59079fca3750$export$f05794e648629f6c);
 $parcel$export($b44f59079fca3750$exports, "buttonResetStyles", () => $b44f59079fca3750$export$a4b8bc24833d60c4);
 $parcel$export($b44f59079fca3750$exports, "listStyleReset", () => $b44f59079fca3750$export$8fa178a39c06e525);
 $parcel$export($b44f59079fca3750$exports, "cardStyles", () => $b44f59079fca3750$export$c579ff79a032fc68);
 $parcel$export($b44f59079fca3750$exports, "colorScheme", () => $b44f59079fca3750$export$f763d99a98a92b3d);
+$parcel$export($b44f59079fca3750$exports, "defaultTheme", () => $b44f59079fca3750$export$164de7ab8df77ef0);
 $parcel$export($b44f59079fca3750$exports, "accentTheme", () => $b44f59079fca3750$export$e3cbeb2efdd7e67a);
-$parcel$export($b44f59079fca3750$exports, "default", () => $b44f59079fca3750$export$2e2bcd8739ae039);
 
 const $b44f59079fca3750$export$f05794e648629f6c = (0, $hgUW1$createGlobalStyle)([
     ".no-scroll{overflow:hidden;}html{background-color:",
-    ";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}html,body{margin:0;padding:0;}html,body,#root{width:100%;height:100%;}div#__next{height:100%;}"
+    ";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}html,body{margin:0;padding:0;}html,body,#root{width:100%;height:100%;}"
 ], ({ theme: theme })=>theme.backgroundColor);
 const $b44f59079fca3750$export$a4b8bc24833d60c4 = (0, $hgUW1$css)([
     "appearance:none;background:transparent;border:0;margin:0;padding:0;cursor:pointer;-webkit-tap-highlight-color:transparent;"
@@ -4728,7 +4722,7 @@ const $b44f59079fca3750$export$f763d99a98a92b3d = {
     tertiarySuccessGreen: "#DDF7E0"
 };
 const { albuskjellGray: $b44f59079fca3750$var$albuskjellGray, primaryOrange: $b44f59079fca3750$var$primaryOrange, primaryNavy: $b44f59079fca3750$var$primaryNavy, white: $b44f59079fca3750$var$white, ekofiskGray: $b44f59079fca3750$var$ekofiskGray, secondaryBlue: $b44f59079fca3750$var$secondaryBlue, tertiaryBlue: $b44f59079fca3750$var$tertiaryBlue, secondaryYellow: $b44f59079fca3750$var$secondaryYellow, tertiaryYellow: $b44f59079fca3750$var$tertiaryYellow, errorRed: $b44f59079fca3750$var$errorRed, tertiaryErrorRed: $b44f59079fca3750$var$tertiaryErrorRed, successGreen: $b44f59079fca3750$var$successGreen, tertiarySuccessGreen: $b44f59079fca3750$var$tertiarySuccessGreen, friggGray: $b44f59079fca3750$var$friggGray, gullfaksGray: $b44f59079fca3750$var$gullfaksGray } = $b44f59079fca3750$export$f763d99a98a92b3d;
-const $b44f59079fca3750$var$defaultTheme = {
+const $b44f59079fca3750$export$164de7ab8df77ef0 = {
     ...$b44f59079fca3750$export$f763d99a98a92b3d,
     backgroundColor: $b44f59079fca3750$var$white,
     foregroundColor: $b44f59079fca3750$var$ekofiskGray,
@@ -4764,7 +4758,7 @@ const $b44f59079fca3750$var$defaultTheme = {
     disabledColor: $b44f59079fca3750$var$gullfaksGray
 };
 const $b44f59079fca3750$export$e3cbeb2efdd7e67a = {
-    ...$b44f59079fca3750$var$defaultTheme,
+    ...$b44f59079fca3750$export$164de7ab8df77ef0,
     backgroundColor: $b44f59079fca3750$var$primaryNavy,
     foregroundColor: $b44f59079fca3750$var$white,
     secondaryForegroundColor: $b44f59079fca3750$var$ekofiskGray,
@@ -4778,7 +4772,6 @@ const $b44f59079fca3750$export$e3cbeb2efdd7e67a = {
     goInviteIconFill: $b44f59079fca3750$var$white,
     inputFieldStroke: $b44f59079fca3750$var$white
 };
-var $b44f59079fca3750$export$2e2bcd8739ae039 = $b44f59079fca3750$var$defaultTheme;
 
 
 var $4e0cb923db1cbd47$export$5dd2748b7940a2a0;
@@ -7430,5 +7423,5 @@ var $79a3477979a1004e$exports = {};
 
 
 
-export {$0f7d2bdce3626be2$export$e6082147eec99b50 as FontType, $0f7d2bdce3626be2$export$65272bfcddf8822d as fontStyles, $0f7d2bdce3626be2$export$89abf52a030e56ee as Font, $0f7d2bdce3626be2$export$89693000420c0acd as Article, $0f7d2bdce3626be2$export$a8a3e93435678ff9 as Heading, $0f7d2bdce3626be2$export$358a232cca1ab2ac as Paragraph, $0f7d2bdce3626be2$export$82b8d343c504672 as Quote, $0f7d2bdce3626be2$export$6a6cc05ddf64d43 as Mono, $4e0cb923db1cbd47$export$5dd2748b7940a2a0 as ButtonSize, $4e0cb923db1cbd47$export$815421991add2584 as defaultButtonSize, $4e0cb923db1cbd47$export$8281bc5a38fc2d4a as ButtonVariant, $4e0cb923db1cbd47$export$d5e2da09afda43a4 as defaultButtonVariant, $4e0cb923db1cbd47$export$8f314e512d92575f as IconContainer, $4e0cb923db1cbd47$export$353f5b6fc5456de1 as Button, $89b8162ca517dee7$export$e566703217e7f8bd as iconComponents, $89b8162ca517dee7$export$f04a61298a47a40f as Icon, $13bd041aea0fab64$export$13ff1290a9e22e77 as IconType, $13bd041aea0fab64$export$ff775019b5b6e7df as IconSize, $b3d101b2a8e104c7$export$ab57792b9b6974a6 as ModalContext, $b3d101b2a8e104c7$export$2dbf667f6ce09617 as ModalConsumer, $b3d101b2a8e104c7$export$178405afcd8c5eb as ModalProvider, $b3d101b2a8e104c7$export$2ee174121202e4c7 as useModals, $b3d101b2a8e104c7$export$d7ef98e694e7c379 as useCreateModal, $aa24c4ef65b34001$export$abbfb32576502502 as ModalVariant, $70f29582e90ad567$export$14834abbfce3b8cd as Notification, $70f29582e90ad567$export$a6e93d8cb5d50678 as NotificationContext, $70f29582e90ad567$export$8bd8c63e46b9e94c as NotificationConsumer, $70f29582e90ad567$export$186b91822010e97f as NotificationProvider, $70f29582e90ad567$export$555d803ff5b50ef6 as useCreateNotification, $70f29582e90ad567$export$2d819f1835aa2b7e as useCreateNotifications, $53ad6d041922679e$export$8b00b20b669072b6 as NotificationVariant, $61512c74dc7454b9$export$40e99d84791def2f as inputFieldStyles, $61512c74dc7454b9$export$2c73285ae9390cec as TextField, $9c6b2184ca31c1ad$export$b94867ecbd698f21 as SearchField, $82c74c7e5e802bff$export$d55d6fefcafab28a as ListInputField, $b44f59079fca3750$export$f05794e648629f6c as GlobalStyle, $b44f59079fca3750$export$a4b8bc24833d60c4 as buttonResetStyles, $b44f59079fca3750$export$8fa178a39c06e525 as listStyleReset, $b44f59079fca3750$export$c579ff79a032fc68 as cardStyles, $b44f59079fca3750$export$f763d99a98a92b3d as colorScheme, $b44f59079fca3750$export$e3cbeb2efdd7e67a as accentTheme};
+export {$0f7d2bdce3626be2$export$e6082147eec99b50 as FontType, $0f7d2bdce3626be2$export$65272bfcddf8822d as fontStyles, $0f7d2bdce3626be2$export$89abf52a030e56ee as Font, $0f7d2bdce3626be2$export$89693000420c0acd as Article, $0f7d2bdce3626be2$export$a8a3e93435678ff9 as Heading, $0f7d2bdce3626be2$export$358a232cca1ab2ac as Paragraph, $0f7d2bdce3626be2$export$82b8d343c504672 as Quote, $0f7d2bdce3626be2$export$6a6cc05ddf64d43 as Mono, $4e0cb923db1cbd47$export$5dd2748b7940a2a0 as ButtonSize, $4e0cb923db1cbd47$export$815421991add2584 as defaultButtonSize, $4e0cb923db1cbd47$export$8281bc5a38fc2d4a as ButtonVariant, $4e0cb923db1cbd47$export$d5e2da09afda43a4 as defaultButtonVariant, $4e0cb923db1cbd47$export$8f314e512d92575f as IconContainer, $4e0cb923db1cbd47$export$353f5b6fc5456de1 as Button, $89b8162ca517dee7$export$e566703217e7f8bd as iconComponents, $89b8162ca517dee7$export$f04a61298a47a40f as Icon, $13bd041aea0fab64$export$13ff1290a9e22e77 as IconType, $13bd041aea0fab64$export$ff775019b5b6e7df as IconSize, $b3d101b2a8e104c7$export$ab57792b9b6974a6 as ModalContext, $b3d101b2a8e104c7$export$2dbf667f6ce09617 as ModalConsumer, $b3d101b2a8e104c7$export$178405afcd8c5eb as ModalProvider, $b3d101b2a8e104c7$export$2ee174121202e4c7 as useModals, $b3d101b2a8e104c7$export$d7ef98e694e7c379 as useCreateModal, $aa24c4ef65b34001$export$abbfb32576502502 as ModalVariant, $70f29582e90ad567$export$14834abbfce3b8cd as Notification, $70f29582e90ad567$export$a6e93d8cb5d50678 as NotificationContext, $70f29582e90ad567$export$8bd8c63e46b9e94c as NotificationConsumer, $70f29582e90ad567$export$186b91822010e97f as NotificationProvider, $70f29582e90ad567$export$555d803ff5b50ef6 as useCreateNotification, $70f29582e90ad567$export$2d819f1835aa2b7e as useCreateNotifications, $53ad6d041922679e$export$8b00b20b669072b6 as NotificationVariant, $61512c74dc7454b9$export$40e99d84791def2f as inputFieldStyles, $61512c74dc7454b9$export$2c73285ae9390cec as TextField, $9c6b2184ca31c1ad$export$b94867ecbd698f21 as SearchField, $82c74c7e5e802bff$export$d55d6fefcafab28a as ListInputField, $b44f59079fca3750$export$f05794e648629f6c as GlobalStyle, $b44f59079fca3750$export$a4b8bc24833d60c4 as buttonResetStyles, $b44f59079fca3750$export$8fa178a39c06e525 as listStyleReset, $b44f59079fca3750$export$c579ff79a032fc68 as cardStyles, $b44f59079fca3750$export$f763d99a98a92b3d as colorScheme, $b44f59079fca3750$export$164de7ab8df77ef0 as defaultTheme, $b44f59079fca3750$export$e3cbeb2efdd7e67a as accentTheme};
 //# sourceMappingURL=module.js.map

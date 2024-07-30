@@ -31,10 +31,6 @@ function $parcel$interopDefault(a) {
 function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
 }
-
-function $parcel$defineInteropFlag(a) {
-  Object.defineProperty(a, '__esModule', {value: true, configurable: true});
-}
 var $e7e541a250049114$exports = {};
 var $e7cd7d506a56bc8f$exports = {};
 
@@ -4675,19 +4671,17 @@ $parcel$exportWildcard($c3f4f69599282f12$exports, $5debc9875a519413$exports);
 
 var $e41dd90e1388d2a4$exports = {};
 
-$parcel$defineInteropFlag($e41dd90e1388d2a4$exports);
-
 $parcel$export($e41dd90e1388d2a4$exports, "GlobalStyle", () => $e41dd90e1388d2a4$export$f05794e648629f6c);
 $parcel$export($e41dd90e1388d2a4$exports, "buttonResetStyles", () => $e41dd90e1388d2a4$export$a4b8bc24833d60c4);
 $parcel$export($e41dd90e1388d2a4$exports, "listStyleReset", () => $e41dd90e1388d2a4$export$8fa178a39c06e525);
 $parcel$export($e41dd90e1388d2a4$exports, "cardStyles", () => $e41dd90e1388d2a4$export$c579ff79a032fc68);
 $parcel$export($e41dd90e1388d2a4$exports, "colorScheme", () => $e41dd90e1388d2a4$export$f763d99a98a92b3d);
+$parcel$export($e41dd90e1388d2a4$exports, "defaultTheme", () => $e41dd90e1388d2a4$export$164de7ab8df77ef0);
 $parcel$export($e41dd90e1388d2a4$exports, "accentTheme", () => $e41dd90e1388d2a4$export$e3cbeb2efdd7e67a);
-$parcel$export($e41dd90e1388d2a4$exports, "default", () => $e41dd90e1388d2a4$export$2e2bcd8739ae039);
 
 const $e41dd90e1388d2a4$export$f05794e648629f6c = (0, $dxT2C$styledcomponents.createGlobalStyle)([
     ".no-scroll{overflow:hidden;}html{background-color:",
-    ";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}html,body{margin:0;padding:0;}html,body,#root{width:100%;height:100%;}div#__next{height:100%;}"
+    ";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}html,body{margin:0;padding:0;}html,body,#root{width:100%;height:100%;}"
 ], ({ theme: theme })=>theme.backgroundColor);
 const $e41dd90e1388d2a4$export$a4b8bc24833d60c4 = (0, $dxT2C$styledcomponents.css)([
     "appearance:none;background:transparent;border:0;margin:0;padding:0;cursor:pointer;-webkit-tap-highlight-color:transparent;"
@@ -4732,7 +4726,7 @@ const $e41dd90e1388d2a4$export$f763d99a98a92b3d = {
     tertiarySuccessGreen: "#DDF7E0"
 };
 const { albuskjellGray: $e41dd90e1388d2a4$var$albuskjellGray, primaryOrange: $e41dd90e1388d2a4$var$primaryOrange, primaryNavy: $e41dd90e1388d2a4$var$primaryNavy, white: $e41dd90e1388d2a4$var$white, ekofiskGray: $e41dd90e1388d2a4$var$ekofiskGray, secondaryBlue: $e41dd90e1388d2a4$var$secondaryBlue, tertiaryBlue: $e41dd90e1388d2a4$var$tertiaryBlue, secondaryYellow: $e41dd90e1388d2a4$var$secondaryYellow, tertiaryYellow: $e41dd90e1388d2a4$var$tertiaryYellow, errorRed: $e41dd90e1388d2a4$var$errorRed, tertiaryErrorRed: $e41dd90e1388d2a4$var$tertiaryErrorRed, successGreen: $e41dd90e1388d2a4$var$successGreen, tertiarySuccessGreen: $e41dd90e1388d2a4$var$tertiarySuccessGreen, friggGray: $e41dd90e1388d2a4$var$friggGray, gullfaksGray: $e41dd90e1388d2a4$var$gullfaksGray } = $e41dd90e1388d2a4$export$f763d99a98a92b3d;
-const $e41dd90e1388d2a4$var$defaultTheme = {
+const $e41dd90e1388d2a4$export$164de7ab8df77ef0 = {
     ...$e41dd90e1388d2a4$export$f763d99a98a92b3d,
     backgroundColor: $e41dd90e1388d2a4$var$white,
     foregroundColor: $e41dd90e1388d2a4$var$ekofiskGray,
@@ -4768,7 +4762,7 @@ const $e41dd90e1388d2a4$var$defaultTheme = {
     disabledColor: $e41dd90e1388d2a4$var$gullfaksGray
 };
 const $e41dd90e1388d2a4$export$e3cbeb2efdd7e67a = {
-    ...$e41dd90e1388d2a4$var$defaultTheme,
+    ...$e41dd90e1388d2a4$export$164de7ab8df77ef0,
     backgroundColor: $e41dd90e1388d2a4$var$primaryNavy,
     foregroundColor: $e41dd90e1388d2a4$var$white,
     secondaryForegroundColor: $e41dd90e1388d2a4$var$ekofiskGray,
@@ -4782,7 +4776,6 @@ const $e41dd90e1388d2a4$export$e3cbeb2efdd7e67a = {
     goInviteIconFill: $e41dd90e1388d2a4$var$white,
     inputFieldStroke: $e41dd90e1388d2a4$var$white
 };
-var $e41dd90e1388d2a4$export$2e2bcd8739ae039 = $e41dd90e1388d2a4$var$defaultTheme;
 
 
 var $d9d818a7563d1ef6$export$5dd2748b7940a2a0;
